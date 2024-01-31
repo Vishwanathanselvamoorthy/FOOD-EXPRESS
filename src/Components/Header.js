@@ -17,7 +17,7 @@ const Header = () => {
 
   const cart = useSelector((store) => store.cart.items);
 
-  cartLengthDisplay = cart.length === 0 ? cart.length : cart.length;
+  // cartLengthDisplay = cart.length === 0 ? cart.length : cart.length;
 
   return (
     <>
@@ -49,10 +49,10 @@ const Header = () => {
                 Cart
                 <div className="relative">
                   <h1 className="absolute top-1 font-bold left-1/2 transform -translate-x-1/2 text-sm bg-none">
-                    {cartLengthDisplay}
+                    {cart.length}
                   </h1>
 
-                  {cartLengthDisplay > 0 ? (
+                  {cart.length > 0 ? (
                     <FontAwesomeIcon
                       className="text-2xl text-green-500 mt-1"
                       icon={faInbox}
