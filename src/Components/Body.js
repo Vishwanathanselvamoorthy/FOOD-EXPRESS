@@ -128,7 +128,7 @@ const Body = () => {
         
       </Swiper> */}
 
-      <div className="w-[1150px] mx-auto ml-auto mr-auto  border-b-2 ">
+      <div className="w-[1150px] mx-auto ml-auto mr-auto ">
         <h1 className="font-bold font-sans text-3xl">{title2.title}</h1>
         <div className="flex w-[1150px] mx-auto mb-10">
           <Swiper spaceBetween={100} slidesPerView={5} direction="horizontal">
@@ -145,7 +145,7 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="w-[1150px] mx-auto mb-8  mt-10  border-b-2 ">
+      <div className="w-[1150px] mx-auto mb-8  mt-10  ">
         <h2 className="font-bold font-sans text-3xl">{title3?.title}</h2>
         <div className="w-[1150px] mx-auto mt-10 flex mb-14">
           <Swiper spaceBetween={100} slidesPerView={4} direction="horizontal">
